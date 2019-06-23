@@ -1,7 +1,5 @@
 // Add BandInput component
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { addBand } from '../actions/bands'
 
 class BandInput extends Component {
 
@@ -31,4 +29,4 @@ class BandInput extends Component {
   }
 }
 
-export default connect(null, { addBand })(BandInput)
+export default BandInput
